@@ -1,0 +1,8 @@
+clone操作:git clone git@github.com:jason67-stack/github中库名.git
+push操作:cd 远程库名（以github网上的库为本地库，远程库如我linux终端开的库）
+touch test.py 
+git add test.py
+git status
+git commit -m"first commit"
+git push origin master
+若在本地库中对文件进行了修改，而远程库没有改，在push前需要git pull git@github.com:jason67-stack//github中库名.git进行更新，不然无法push
